@@ -98,27 +98,7 @@ const Project1 = () => {
         })}
       </div>
 
-      <footer id="footer" role="contentinfo" className="mt-[10vh] py-[10vh] text-center">
-        <div className="container relative mx-auto px-4">
-          <div className="relative before:content-[''] before:absolute before:bottom-full before:left-5 before:z-10 before:border-t-2 before:w-1/4 before:mb-[10vh] after:content-[''] after:absolute after:bottom-full after:right-5 after:z-10 after:border-t-2 after:w-1/4 after:mb-[10vh]">
-            <a 
-              href="https://codepen.io/collection/XRoxGR" 
-              rel="home" 
-              className="block font-semibold text-1.5xl hover:opacity-80 transition-opacity"
-            >
-              Calibration theme
-            </a>
-            <a 
-              href="https://mobilemarkup.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="block mt-5 uppercase text-sm font-semibold hover:opacity-80 transition-opacity"
-            >
-              &copy; mobileMarkup.com
-            </a>
-          </div>
-        </div>
-      </footer>
+    
 
       <style jsx>{`
         html {
